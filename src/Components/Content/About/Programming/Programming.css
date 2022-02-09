@@ -1,0 +1,61 @@
+.prom {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.prom-title {
+    color: #44505f;
+	font-size: 24px;
+	font-weight: 900;
+    margin-bottom: 24px;
+}
+.year {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+.years {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 32px;
+}
+.timeline {
+    width: 60%;
+    height: 6px;
+    background-color: silver;
+    border-radius: 12px;
+}
+.first-dot {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1px solid black;
+    bottom: 12px;
+    cursor: pointer;
+}
+.second-dot {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1px solid black;
+    bottom: 30px;
+    right: 25%;
+    cursor: pointer;
+}
+.third-dot {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1px solid black;
+    bottom: 48px;
+    left: 25%;
+    cursor: pointer;
+}
+.first-dot:hover, .second-dot:hover, .third-dot:hover {
+    box-shadow: 0 0 5px silver;
+} 

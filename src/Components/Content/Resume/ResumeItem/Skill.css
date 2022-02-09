@@ -1,0 +1,10 @@
+.skill-box {
+    display: flex;
+}
+.skill-item {
+    background-color: #edf2f7;
+    color: #44505f;
+    margin: 0 8px 8px 0;
+    padding: 0 10px;
+    line-height: 1.7;
+}

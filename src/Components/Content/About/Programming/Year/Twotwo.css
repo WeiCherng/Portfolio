@@ -1,0 +1,14 @@
+.two-two {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    box-shadow: 0 0 5px silver;
+    padding: 6px 18px;
+}
+.two-header {
+    display: flex;
+    justify-content: space-between;
+}
+.two-desc {
+    display: flex;
+}

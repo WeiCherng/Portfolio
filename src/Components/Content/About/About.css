@@ -1,0 +1,21 @@
+.about {
+    overflow-y: scroll;
+}
+.about::-webkit-scrollbar-track
+{
+	box-shadow: none;
+	border-radius: 10px;
+	background-color: transparent;
+}
+
+.about::-webkit-scrollbar
+{
+	width: 8px;
+	background-color: transparent;
+}
+
+.about::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: rgb(187, 187, 187);
+}

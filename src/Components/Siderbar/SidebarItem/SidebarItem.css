@@ -1,0 +1,14 @@
+.sidebar-items {
+    list-style: none;
+    padding: 0;
+    cursor: pointer;
+}
+.sidebar-item {
+    margin: 12px 0;
+    color: #4a5568;
+    font-weight: 700;
+}
+.sidebar-item:hover {
+    text-decoration: 1px solid #8e9cb4 underline;
+    color: #8e9cb4;
+}

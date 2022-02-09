@@ -1,0 +1,45 @@
+.resume {
+  overflow-y: scroll;
+}
+.row {
+  display: flex;
+}
+.col-padding {
+	padding: 0 12px;
+}
+.name-title {
+	color: #44505f;
+	font-size: 24px;
+	font-weight: 900;
+}
+.section {
+	font-size: 14px;
+	font-weight: 900;
+	color: #8e9cb4;
+}
+
+
+.resume::-webkit-scrollbar-track
+{
+	box-shadow: none;
+	border-radius: 10px;
+	background-color: transparent;
+}
+
+.resume::-webkit-scrollbar
+{
+	width: 8px;
+	background-color: transparent;
+}
+
+.resume::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: rgb(187, 187, 187);
+}
+
+@media (max-width: 768px) {
+	.col-padding {
+		padding: 0;
+	}
+}
