@@ -32,7 +32,7 @@ export default function Content() {
 
   return (
     <div className="content-container">
-      {mobile ? <MobileSidebar/> : <Sidebar select={setSelect}/>}
+      {mobile ? <MobileSidebar setSelect={setSelect}/> : <Sidebar select={setSelect}/>}
       <motion.div
         className="info-container"
         initial={{ y: 500, opacity: 0 }}

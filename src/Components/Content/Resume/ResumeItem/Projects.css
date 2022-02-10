@@ -1,0 +1,9 @@
+.side-project {
+    display: flex;
+    flex-direction: column;
+    margin: 8px 0;
+}
+.side-margin {
+    margin-top: 0;
+    margin-bottom: 0;
+}

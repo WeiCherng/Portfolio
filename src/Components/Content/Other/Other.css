@@ -9,6 +9,14 @@
     flex-direction: column;
     align-items: center;
 }
+.other-title {
+    color: #44505f;
+	font-size: 24px;
+	font-weight: 900;
+}
+.other-desc {
+	color: #4a5568;
+}
 
 .other::-webkit-scrollbar-track
 {

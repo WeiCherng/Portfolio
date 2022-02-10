@@ -7,13 +7,16 @@ export default function Biography() {
       <div className="column">
         <header className="bio-title">BIOGRAPHY</header>
         <p className="bio-desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          I'm Tang Wei Cherng, a 20 year old student pursuing a Software
+          Engineering degree. I love to code but I'm not the best at it. I've
+          been learning how to code from my school and through really wonderful
+          resources online. Learning process has been fun and very challenging
+          at times. Nevertheless, it has always been my dream job to be a web
+          developer. I started my programming career when I was 18 and it has
+          been great since.
+        </p>
+        <p className="bio-desc">
+          Click the timeline below to learn more about my programming career!
         </p>
       </div>
       <div className="column"></div>

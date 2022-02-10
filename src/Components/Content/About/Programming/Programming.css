@@ -33,6 +33,7 @@
     height: 18px;
     border-radius: 50%;
     border: 1px solid black;
+    background-color: #fff;
     bottom: 12px;
     cursor: pointer;
 }
@@ -42,6 +43,7 @@
     height: 18px;
     border-radius: 50%;
     border: 1px solid black;
+    background-color: #fff;
     bottom: 30px;
     right: 25%;
     cursor: pointer;
@@ -52,6 +54,7 @@
     height: 18px;
     border-radius: 50%;
     border: 1px solid black;
+    background-color: #fff;
     bottom: 48px;
     left: 25%;
     cursor: pointer;

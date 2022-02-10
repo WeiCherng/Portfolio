@@ -18,6 +18,20 @@
 	color: #8e9cb4;
 }
 
+.item-title {
+    color: #4a5568;
+    font-weight: 900;
+    font-size: 17px;
+}
+.item-date {
+    color: #68778d;
+    font-size: 16px;
+}
+.item-desc {
+    color: #4a5568;
+    font-size: 16px;
+}
+
 
 .resume::-webkit-scrollbar-track
 {
@@ -41,5 +55,8 @@
 @media (max-width: 768px) {
 	.col-padding {
 		padding: 0;
+	}
+	.row {
+		flex-direction: column;
 	}
 }

@@ -15,23 +15,26 @@ export default function Twoone(props) {
         <div className="column">
           <h4>May 2021</h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget sit
-            amet tellus cras adipiscing enim eu turpis.
+            Had a couple weeks of break, discovered Web Development and started
+            learning HTML, CSS, Javascript. Attended an online Web Development
+            bootcamps which covers full stack development. Started my web
+            development journey.
           </p>
           <h4>Dec 2021</h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget sit
-            amet tellus cras adipiscing enim eu turpis.
+            Finished My Internship and started to focus on my personal skill
+            sets. I built a couple of projects and tried out Odin Projects where
+            I learnt a lot about the basics of the Web.
           </p>
         </div>
         <div className="column">
           <h4>Sept 2021</h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus
-            suspendisse faucibus interdum posuere lorem ipsum dolor.
+            Tried to seek different job opportunities. Accepted an internship
+            offer after getting rejected many times by different companies.
+            Worked with new and different technologies. Grateful for the
+            opportunities given and learnt a lot from many people during the
+            internship.
           </p>
         </div>
       </section>

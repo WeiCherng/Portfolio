@@ -14,6 +14,7 @@ export default function Sidebar(props) {
       transition={{ duration: 1, ease: "easeInOut" }}
     >
       <section>
+        <div onClick={props.close} className="web-hide">X</div>
         <Avatar></Avatar>
         <SiderbarItem onSelect={props.select}></SiderbarItem>
       </section>

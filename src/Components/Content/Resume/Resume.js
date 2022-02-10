@@ -1,8 +1,13 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "./Resume.css";
-import ResumeItem from "./ResumeItem/ResumeItem";
 import Skill from "./ResumeItem/Skill";
+import AboutMe from "./ResumeItem/AboutMe";
+import Experience from "./ResumeItem/Experience";
+import Education from "./ResumeItem/Education";
+import ContactMe from "./ResumeItem/ContactMe";
+import Projects from "./ResumeItem/Projects";
+import Others from "./ResumeItem/Others";
 
 export default function Resume() {
   return (
@@ -17,36 +22,34 @@ export default function Resume() {
         <div className="column col-padding">
           <section>
             <h2 className="section">ABOUT ME</h2>
-            <ResumeItem />
+            <AboutMe />
           </section>
           <section>
             <h2 className="section">EXPERIENCE</h2>
-            <ResumeItem />
+            <Experience />
           </section>
           <section>
             <h2 className="section">EDUCATION</h2>
-            <ResumeItem />
+            <Education />
+          </section>
+          <section>
+            <h2 className="section">OTHER</h2>
+            <Others />
           </section>
           <section>
             <h2 className="section">CONTACT</h2>
-            <ResumeItem />
+            <ContactMe />
           </section>
         </div>
 
         <div className="column col-padding">
           <section>
             <h2 className="section">PROJECTS</h2>
-            <ResumeItem />
+            <Projects />
           </section>
           <section>
             <h2 className="section">SKILLS</h2>
-            <ResumeItem />
-            <Skill/>
-          </section>
-          <section>
-            <h2 className="section">OTHER</h2>
-            <ResumeItem />
-            <ResumeItem />
+            <Skill />
           </section>
         </div>
       </div>

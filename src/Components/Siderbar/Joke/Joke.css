@@ -4,7 +4,7 @@
   align-items: center;
 }
 .joke-container {
-  background-color: aliceblue;
+  background-color: #e3e5e8;
   border-radius: 8px;
   padding: 8px;
   width: 100%;
@@ -26,10 +26,10 @@
   cursor: pointer;
 }
 .get-joke:hover {
-  text-decoration: 2px solid white underline;
-  color: white;
+  text-decoration: 2px solid #8e9cb4 underline;
+  color: #8e9cb4;
 }
-.get-joke:active {
+/* .get-joke:active {
   text-decoration: 2px solid #4a5568 underline;
   color: #4a5568;
-}
+} */

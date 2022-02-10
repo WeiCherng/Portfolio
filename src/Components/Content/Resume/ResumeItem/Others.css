@@ -1,8 +1,8 @@
-.skill-box {
+.other-box {
     display: flex;
     flex-wrap: wrap;
 }
-.skill-item {
+.other-item {
     background-color: #edf2f7;
     color: #44505f;
     margin: 0 8px 8px 0;

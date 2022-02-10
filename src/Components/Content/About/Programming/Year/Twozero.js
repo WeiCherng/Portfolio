@@ -8,28 +8,32 @@ export default function Twozero(props) {
   return (
     <div className="two-zero">
       <header className="zero-header">
-        <h3>2022</h3>
+        <h3>2020</h3>
         <div onClick={closeHandler}>X</div>
       </header>
       <section className="zero-desc">
         <div className="column">
           <h4>May 2020</h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget sit
-            amet tellus cras adipiscing enim eu turpis.
+            Started Learning Basic of Python in College. I Learned the basic
+            concepts of programming such as loops, functions, variables etc. I
+            Did my first programming assignment with coursemates and built a
+            program together.
           </p>
           <h4>Dec 2020</h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget sit
-            amet tellus cras adipiscing enim eu turpis.
+            Trying out different programming languages and started learning C++
+            with visual studio 2019. Very rough at first with the installation
+            and concepts which are different from python.
           </p>
         </div>
         <div className="column">
-          <h4>Sept 2022</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labor</p>
+          <h4>Sept 2020</h4>
+          <p>
+            Gained interest in python and started learning from youtube videos
+            such as freecodecamp and have a deeper understanding on how pythons
+            work.
+          </p>
         </div>
       </section>
     </div>

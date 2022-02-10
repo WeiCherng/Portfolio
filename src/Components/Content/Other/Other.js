@@ -12,17 +12,19 @@ export default function Other() {
       transition={{ duration: 1, ease: "easeInOut" }}
     >
       <section className="purpose">
-        <h2>What is This Website For?</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc
-          pulvinar sapien et ligula ullamcorper. Ut tellus elementum sagittis
-          vitae. Pellentesque eu tincidunt tortor aliquam nulla facilisi cras.
+        <h2 className="other-title">What is This Website For?</h2>
+        <p className="other-desc">
+          This website is my first ever portfolio to showcase my interest and
+          who am I. The design of the website is inspired by many wonderfully
+          built websites throughout the web. I build every component from
+          scratch and some from online resources. I had a blast building my own
+          website and I hope you enjoyed it too. Feel free to contact me if
+          theres any problem with this website.
         </p>
       </section>
       <section>
-        <h2>My Projects</h2>
-        <p>
+        <h2 className="other-title">My Projects</h2>
+        <p className="other-desc">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>

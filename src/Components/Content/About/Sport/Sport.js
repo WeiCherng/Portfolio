@@ -4,19 +4,17 @@ import "./Sport.css";
 export default function Sport() {
   return (
     <div className="row">
+      <div className="column"></div>
       <div className="column">
-        
-      </div>
-      <div className="column">
-      <header className="sport-title">SPORT</header>
+        <header className="sport-title">SPORT</header>
         <p className="sport-desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          Being 6 feet in my area is considered a giant.
+        </p>
+        <p className="sport-desc">
+          So naturely I was selected to play basketball and volleyball. Trained
+          for 3 times a week when i was 16 and got a chance to represent my
+          local town to play. Did not make it but Won a game and lose 2. Had a
+          blast of a time though!
         </p>
       </div>
     </div>

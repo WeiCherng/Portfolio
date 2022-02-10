@@ -15,14 +15,16 @@ export default function Twotwo(props) {
         <div className="column">
           <h4>Jan 2022</h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget sit
-            amet tellus cras adipiscing enim eu turpis.
+            Learning Redux and trying out different CSS animation library.
+            Started builing my own portfoilio.
           </p>
         </div>
         <div className="column">
-          <h4>Feb 2022</h4>
-          <p>Current</p>
+          <h4>Current</h4>
+          <p>
+            Happy and gratefull to everyone who has help and given me advice.
+            Continue to learn more and ready to improve!
+          </p>
         </div>
       </section>
     </div>
