@@ -1,4 +1,5 @@
 import React from "react";
+import { AiOutlineClose } from "react-icons/ai";
 import "./Twoone.css";
 
 export default function Twoone(props) {
@@ -9,10 +10,13 @@ export default function Twoone(props) {
     <div className="two-one">
       <header className="one-header">
         <h3>2021</h3>
-        <div onClick={closeHandler}>X</div>
+        <h2>My First Working Experience</h2>
+        <div className="close-container" onClick={closeHandler}>
+          <AiOutlineClose />
+        </div>
       </header>
       <section className="one-desc">
-        <div className="column">
+        <div className="column year-col">
           <h4>May 2021</h4>
           <p>
             Had a couple weeks of break, discovered Web Development and started
@@ -27,7 +31,7 @@ export default function Twoone(props) {
             I learnt a lot about the basics of the Web.
           </p>
         </div>
-        <div className="column">
+        <div className="column year-col">
           <h4>Sept 2021</h4>
           <p>
             Tried to seek different job opportunities. Accepted an internship

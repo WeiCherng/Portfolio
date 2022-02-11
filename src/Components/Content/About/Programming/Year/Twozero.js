@@ -1,4 +1,5 @@
 import React from "react";
+import { AiOutlineClose } from "react-icons/ai";
 import "./Twozero.css";
 
 export default function Twozero(props) {
@@ -9,10 +10,13 @@ export default function Twozero(props) {
     <div className="two-zero">
       <header className="zero-header">
         <h3>2020</h3>
-        <div onClick={closeHandler}>X</div>
+        <h2>The Start of My Programming</h2>
+        <div className="close-container" onClick={closeHandler}>
+          <AiOutlineClose />
+        </div>
       </header>
       <section className="zero-desc">
-        <div className="column">
+        <div className="column year-col">
           <h4>May 2020</h4>
           <p>
             Started Learning Basic of Python in College. I Learned the basic
@@ -27,7 +31,7 @@ export default function Twozero(props) {
             and concepts which are different from python.
           </p>
         </div>
-        <div className="column">
+        <div className="column year-col">
           <h4>Sept 2020</h4>
           <p>
             Gained interest in python and started learning from youtube videos

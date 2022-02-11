@@ -4,6 +4,12 @@
     margin: 8px 0;
 }
 .side-margin {
+    display: flex;
+    align-items: center;
     margin-top: 0;
     margin-bottom: 0;
+}
+.side-title {
+    display: flex;
+    align-items: center;
 }

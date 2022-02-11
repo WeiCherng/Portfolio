@@ -25,9 +25,9 @@ export default function Programming() {
         <span>2022</span>
       </section>
       <div className="timeline"></div>
-      <div onClick={yearHandler} className="first-dot"></div>
-      <div onClick={yearHandler} className="second-dot"></div>
-      <div onClick={yearHandler} className="third-dot"></div>
+      <div onClick={yearHandler} className={ year === 2021 ? "first-dot active" : "first-dot"}></div>
+      <div onClick={yearHandler} className={ year === 2020 ? "second-dot active" : "second-dot"}></div>
+      <div onClick={yearHandler} className={ year === 2022 ? "third-dot active" : "third-dot"}></div>
       <section className="years">
         {year === 2020 && <Twozero close={setYear}/>}
         {year === 2021 && <Twoone close={setYear}/>}

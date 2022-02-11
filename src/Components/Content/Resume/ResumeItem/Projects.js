@@ -1,5 +1,6 @@
 import "./Projects.css";
 import React from "react";
+import { FiExternalLink } from "react-icons/fi";
 import Wrapper from "../../../../Helper/Wrapper";
 
 export default function Projects() {
@@ -7,7 +8,9 @@ export default function Projects() {
     <Wrapper>
       <div>
         <header>
-          <h3 className="item-title">My Portfolio</h3>
+          <h3 className="item-title side-title">
+            My Portfolio <FiExternalLink className="link" />
+          </h3>
           <p className="item-date">Jan 2022 | React </p>
         </header>
         <p className="item-desc">
@@ -18,7 +21,10 @@ export default function Projects() {
       </div>
       <div>
         <header>
-          <h3 className="item-title">Sentence</h3>
+          <h3 className="item-title side-title">
+            Sentence
+            <FiExternalLink className="link" />
+          </h3>
           <p className="item-date">Dec 2021 | MERN</p>
         </header>
         <p className="item-desc">
@@ -38,23 +44,76 @@ export default function Projects() {
       </div>
       <div>
         <section className="side-project">
-          <h3 className="item-title side-margin">Expense Tracker</h3>
-          <p className="item-desc side side-margin">React Expense Tracker with Pie Chart</p>
+          <h3 className="side-margin">
+            <a
+              className="item-title side-margin"
+              href="https://expense-tracker-wei-cherng.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Expense Tracker
+              <FiExternalLink className="link" />
+            </a>
+          </h3>
+          <p className="item-desc side side-margin">
+            React Expense Tracker with Pie Chart
+          </p>
         </section>
         <section className="side-project">
-          <h3 className="item-title side-margin">Todo List</h3>
+          <h3 className="side-margin">
+            <a
+              className="item-title side-margin"
+              href="https://weicherng.github.io/TodoList/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Todo List
+              <FiExternalLink className="link" />
+            </a>
+          </h3>
           <p className="item-desc side side-margin">React Todo List</p>
         </section>
         <section className="side-project">
-          <h3 className="item-title side-margin">Calculator</h3>
-          <p className="item-desc side side-margin">Simple Javascript Calculator</p>
+          <h3 className="side-margin">
+            <a
+              className="item-title side-margin"
+              href="https://weicherng.github.io/Calculator/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Calculator <FiExternalLink className="link" />
+            </a>
+          </h3>
+          <p className="item-desc side side-margin">
+            Simple Javascript Calculator
+          </p>
         </section>
         <section className="side-project">
-          <h3 className="item-title side-margin">Rock Paper Scissors</h3>
-          <p className="item-desc side side-margin">Simple Game of Rock Paper Scissors</p>
+          <h3 className="side-margin">
+            <a
+              className="item-title side-margin"
+              href="https://weicherng.github.io/Rock-Paper-Scissor/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Rock Paper Scissors <FiExternalLink className="link" />
+            </a>
+          </h3>
+          <p className="item-desc side side-margin">
+            Simple Game of Rock Paper Scissors
+          </p>
         </section>
         <section className="side-project">
-          <h3 className="item-title side-margin">Countdown Timer</h3>
+          <h3 className="item-title side-margin">
+            <a
+              className="item-title side-margin"
+              href="https://weicherng.github.io/Countdown-Timer/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Countdown Timer <FiExternalLink className="link" />
+            </a>
+          </h3>
           <p className="item-desc side side-margin">
             A Javascript countdown timer to New Year Eves
           </p>

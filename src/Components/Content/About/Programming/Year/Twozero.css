@@ -3,6 +3,7 @@
     flex-direction: column;
     width: 80%;
     box-shadow: 0 0 5px silver;
+    border-radius: 12px;
     padding: 6px 18px;
 }
 .zero-header {

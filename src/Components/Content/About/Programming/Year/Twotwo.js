@@ -1,4 +1,5 @@
 import React from "react";
+import { AiOutlineClose } from "react-icons/ai";
 import "./Twotwo.css";
 
 export default function Twotwo(props) {
@@ -9,17 +10,20 @@ export default function Twotwo(props) {
     <div className="two-two">
       <header className="two-header">
         <h3>2022</h3>
-        <div onClick={closeHandler}>X</div>
+        <h2>New Year New Me</h2>
+        <div className="close-container" onClick={closeHandler}>
+          <AiOutlineClose />
+        </div>
       </header>
       <section className="two-desc">
-        <div className="column">
+        <div className="column year-col">
           <h4>Jan 2022</h4>
           <p>
             Learning Redux and trying out different CSS animation library.
             Started builing my own portfoilio.
           </p>
         </div>
-        <div className="column">
+        <div className="column year-col">
           <h4>Current</h4>
           <p>
             Happy and gratefull to everyone who has help and given me advice.

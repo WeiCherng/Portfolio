@@ -5,7 +5,25 @@
 }
 .contact-desc {
 	color: #4a5568;
+	width: 50%;
 }
 .contact-item {
     font-size: 18px;
+	display: flex;
+	align-items: center;
+	margin: 12px 0;
+	text-decoration: none;
+	color: black;
+}
+.contact-item span {
+	margin-left: 12px;
+}
+.point {
+	cursor: pointer;
+}
+
+@media (max-width: 768px){
+	.contact-desc {
+		width: 100%
+	}
 }

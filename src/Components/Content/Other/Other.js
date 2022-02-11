@@ -25,8 +25,7 @@ export default function Other() {
       <section>
         <h2 className="other-title">My Projects</h2>
         <p className="other-desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Some explanation, thoughts and approach to each of my proejcts
         </p>
         <Project />
         <Project />
