@@ -8,6 +8,12 @@
     align-items: center;
     padding: 24px 12px;
 }
+.sidebar-navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
 .web-hide {
     display: none;
 }
@@ -18,6 +24,8 @@
         z-index: 1;
     }
     .web-hide {
-        display: block;
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
     }
 }

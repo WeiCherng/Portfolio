@@ -2,7 +2,29 @@
     color: #44505f;
 	font-size: 24px;
 	font-weight: 900;
+	margin-top: 22px;
 }
 .sport-desc {
 	color: #4a5568;
+}
+.sport-img-cont {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+.sport-img {
+	width: 65%;
+	height: 240px;
+	object-fit: cover;
+	box-shadow: 0 0 5px #8e9cb4;
+	border-radius: 20px;
+}
+.sport-pic-desc {
+	font-size: 12px;
+	color: #4a5568;
+	font-weight: 700;
+	margin: 0;
+	margin-top: 12px;
 }

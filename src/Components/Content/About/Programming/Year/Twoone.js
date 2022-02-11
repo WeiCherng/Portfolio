@@ -10,7 +10,7 @@ export default function Twoone(props) {
     <div className="two-one">
       <header className="one-header">
         <h3>2021</h3>
-        <h2>My First Working Experience</h2>
+        <h2 className="one-title">My First Working Experience</h2>
         <div className="close-container" onClick={closeHandler}>
           <AiOutlineClose />
         </div>

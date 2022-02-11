@@ -5,8 +5,9 @@
 }
 .prom-title {
     color: #44505f;
-	font-size: 24px;
+	font-size: 32px;
 	font-weight: 900;
+    margin-top: 24px;
     margin-bottom: 24px;
 }
 .year {
@@ -69,4 +70,10 @@
     display: flex;
     align-items: center;
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .year-col {
+        padding: 0 12px;
+    }
 }

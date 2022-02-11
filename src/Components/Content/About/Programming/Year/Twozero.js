@@ -10,7 +10,7 @@ export default function Twozero(props) {
     <div className="two-zero">
       <header className="zero-header">
         <h3>2020</h3>
-        <h2>The Start of My Programming</h2>
+        <h2 className="zero-title">The Start of My Programming</h2>
         <div className="close-container" onClick={closeHandler}>
           <AiOutlineClose />
         </div>

@@ -1,0 +1,16 @@
+.text-title {
+    margin: 0;
+    text-align: center;
+}
+.text-title:nth-child(1){
+    font-size: 48px;
+}
+.text-title:nth-child(2){
+    margin-bottom: 22px;
+    font-size: 18px;
+}
+@media (max-width: 768px) {
+    .text-title:nth-child(1){
+        font-size: 24px;
+    }
+}

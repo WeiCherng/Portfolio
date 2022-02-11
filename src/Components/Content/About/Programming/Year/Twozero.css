@@ -2,14 +2,28 @@
     display: flex;
     flex-direction: column;
     width: 80%;
-    box-shadow: 0 0 5px silver;
+    box-shadow: 0 0 3px #44505f;
+    background-color: #f2f3f5;
     border-radius: 12px;
     padding: 6px 18px;
 }
 .zero-header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.zero-title {
+    text-align: center;
 }
 .zero-desc {
     display: flex;
+}
+
+@media (max-width: 768px) {
+    .two-zero {
+        width: 95%;
+    }
+    .zero-desc {
+        flex-direction: column;
+    }
 }

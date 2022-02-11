@@ -17,7 +17,7 @@ export default function Contact() {
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 1, ease: "easeInOut" }}
     >
-      <h2 className="contact-title">I Love To Hear From You</h2>
+      <h2 className="contact-title">I Love To Hear From You 💗</h2>
       <p className="contact-desc">
         Feel free to contact me if there is any issuses with the website. I
         would very much appereciate any feedbacks and suggestions towards this

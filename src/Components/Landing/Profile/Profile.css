@@ -7,6 +7,7 @@
   height: 300px;
   border-radius: 50%;
   background-color: silver;
+  box-shadow: 0 0 5px #44505f;
 }
 .inner-circle {
   z-index: 1;

@@ -8,7 +8,7 @@ import About from "./About/About";
 import Other from "./Other/Other";
 import MobileSidebar from "../Siderbar/mobileSidebar/mobileSidebar";
 
-export default function Content() {
+export default function Content(props) {
   const [mobile, setMobile] = useState(false);
 
   useEffect(() => {
@@ -16,7 +16,8 @@ export default function Content() {
     if (screen <= 768) {
       setMobile(true);
     }
-  }, []);
+    setSelect(props.choice)
+  }, [props.choice]);
 
   let title;
   const [select, setSelect] = useState(2);

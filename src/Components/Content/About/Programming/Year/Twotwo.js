@@ -10,7 +10,7 @@ export default function Twotwo(props) {
     <div className="two-two">
       <header className="two-header">
         <h3>2022</h3>
-        <h2>New Year New Me</h2>
+        <h2 className="two-title">New Year New Me</h2>
         <div className="close-container" onClick={closeHandler}>
           <AiOutlineClose />
         </div>

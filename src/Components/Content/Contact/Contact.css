@@ -21,6 +21,9 @@
 .point {
 	cursor: pointer;
 }
+.point:hover {
+	color: #44505f;
+}
 
 @media (max-width: 768px){
 	.contact-desc {

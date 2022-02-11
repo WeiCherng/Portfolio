@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import Wrapper from "../../Helper/Wrapper";
 import "./Landing.css";
 import Profile from "./Profile/Profile";
+import Title from "./Text/Title";
 
 export default function Landing(props) {
   return (
@@ -12,7 +13,7 @@ export default function Landing(props) {
           <Wrapper>
             <motion.div
               initial={{ opacity: 0, y: 400 }}
-              animate={{ opacity: 1, y:0 }}
+              animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, ease: "easeOut" }}
               exit={{ y: -400, opacity: 0 }}
               className="column profile-container"
@@ -26,21 +27,40 @@ export default function Landing(props) {
               exit={{ y: -400, opacity: 0 }}
               className="column desc-container"
             >
-              <h1>
-                Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
-                consectetur, adipisci velit.
-              </h1>
+              <Title />
               <div className="button-container">
                 <button
                   className="button"
                   onClick={() => {
-                    props.setVisibility();
+                    props.setVisibility(1);
                   }}
                 >
-                  commodo nulla facilisi
+                  About Me
                 </button>
-                <button className="button">pellentesque habitant morbi</button>
-                <button className="button">mattis molestie a</button>
+                <button
+                  className="button"
+                  onClick={() => {
+                    props.setVisibility(2);
+                  }}
+                >
+                  My Resume
+                </button>
+                <button
+                  className="button"
+                  onClick={() => {
+                    props.setVisibility(4);
+                  }}
+                >
+                  My Contacts
+                </button>
+                <button
+                  className="button"
+                  onClick={() => {
+                    props.setVisibility(3);
+                  }}
+                >
+                  Other
+                </button>
               </div>
             </motion.div>
           </Wrapper>

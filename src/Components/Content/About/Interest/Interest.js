@@ -3,13 +3,13 @@ import "./Interest.css";
 
 export default function Interest() {
   return (
-    <div className="row">
+    <div className="row interest-cont">
       <div className="column">
         <header className="interest-title">MY INTEREST</header>
         <p className="interest-desc">
-          I always love to play games since i was young but I am a total noob at
-          playing it competitively. One of the best game ive played is Red Dead
-          Redemption 2, really recommend giving it a try.
+          I love to play games. Games always been fun for me and I enjoyed playing it
+          whenever I have free time. I like to play fps and story based games.
+          One of the best story games Ive played is RDR2. Really Fun!
         </p>
         <p className="interest-desc">
           I love computers hardware too. Watching youtubers such as LTT build

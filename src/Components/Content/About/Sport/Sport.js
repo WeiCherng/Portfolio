@@ -4,7 +4,12 @@ import "./Sport.css";
 export default function Sport() {
   return (
     <div className="row">
-      <div className="column"></div>
+      <div className="column">
+        <div className="sport-img-cont">
+          <img src="ball.png" alt="ball" className="sport-img"/>
+          <p className="sport-pic-desc">Im so stressed out in this picture (Number 13)</p>
+        </div>
+      </div>
       <div className="column">
         <header className="sport-title">SPORT</header>
         <p className="sport-desc">

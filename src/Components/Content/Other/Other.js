@@ -22,15 +22,11 @@ export default function Other() {
           theres any problem with this website.
         </p>
       </section>
-      <section>
+      <section className="showcase">
         <h2 className="other-title">My Projects</h2>
         <p className="other-desc">
           Some explanation, thoughts and approach to each of my proejcts
         </p>
-        <Project />
-        <Project />
-        <Project />
-        <Project />
         <Project />
       </section>
     </motion.div>

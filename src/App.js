@@ -6,8 +6,10 @@ import Content from "./Components/Content/Content"
 function App() {
   const [landing, setLanding] = useState(true);
   const [content, setContent] = useState(false);
+  const [selected, setSelected] = useState()
 
-  const changePage = () => {
+  const changePage = (e) => {
+    setSelected(e)
     setLanding(false)
     setTimeout(() => {
       setContent(true)
@@ -17,7 +19,7 @@ function App() {
   return (
     <div className="app">
         <Landing visibility={landing} setVisibility={changePage}></Landing>
-        {content && <Content/>}
+        {content && <Content choice={selected}/>}
     </div>
   );
 }

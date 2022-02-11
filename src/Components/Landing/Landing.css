@@ -17,15 +17,26 @@
 .button {
     margin: 0 12px;
     border: none;
-    background-color: sliver;
-    color: black;
+    background-color: #f2f3f5;
+    color: #4a5568;
     border-radius: 10px;
-    padding: 12px;
+    padding: 8px 16px;
     cursor: pointer;
+    font-weight: 700;
 }
 .button:hover {
-    background-color: antiquewhite;
+    background-color: #4a5568;
+    color: #f2f3f5;
 }
 .button:active {
-    background-color: silver;
+    background-color: #f2f3f5;
+}
+@media (max-width: 768px) {
+    .button-container {
+        flex-direction: column;
+    }
+    .button {
+        margin: 6px 0;
+        /* width: 100%; */
+    }
 }

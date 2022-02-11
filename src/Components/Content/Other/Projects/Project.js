@@ -1,30 +1,65 @@
 import React from "react";
+import Wrapper from "../../../../Helper/Wrapper";
 import "./Project.css";
 
 export default function Project() {
+  const projects = [
+    {
+      id: 1,
+      img: "expense.png",
+      title: "Expense Tracker",
+      desc: "React Expense Tracker with Pie Chart",
+      link: "https://expense-tracker-wei-cherng.netlify.app/",
+    },
+    {
+      id: 2,
+      img: "todo.png",
+      title: "Todo List",
+      desc: "React todolist",
+      link: "https://weicherng.github.io/TodoList/",
+    },
+    {
+      id: 3,
+      img: "calculator.png",
+      title: "Calculator",
+      desc: "Simple Calculator",
+      link: "https://weicherng.github.io/Calculator/",
+    },
+    {
+      id: 4,
+      img: "game.png",
+      title: "Rock Paper Scissors",
+      desc: "A simple game",
+      link: "https://weicherng.github.io/Rock-Paper-Scissor/",
+    },
+    {
+      id: 5,
+      img: "countdown.png",
+      title: "Countdown Timer",
+      desc: "Countdown Timer to New Years Eve",
+      link: "https://weicherng.github.io/Countdown-Timer/",
+    },
+  ];
+
   return (
-    <section className="row">
-      <div className="column project-img-cont">
-        <div className="project-img"></div>
-      </div>
-      <div className="column">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh cras
-          pulvinar mattis nunc. Lectus magna fringilla urna porttitor rhoncus
-          dolor purus non. Malesuada proin libero nunc consequat. Donec et odio
-          pellentesque diam volutpat commodo sed egestas egestas. Pharetra sit
-          amet aliquam id diam maecenas. Tincidunt tortor aliquam nulla facilisi
-          cras fermentum odio eu. Id neque aliquam vestibulum morbi blandit
-          cursus risus at ultrices. Tristique senectus et netus et malesuada
-          fames ac turpis. Ut morbi tincidunt augue interdum velit euismod in
-          pellentesque. A scelerisque purus semper eget duis at. Lectus arcu
-          bibendum at varius vel pharetra. Nunc eget lorem dolor sed viverra
-          ipsum nunc. Urna nec tincidunt praesent semper feugiat nibh sed
-          pulvinar. Lorem ipsum dolor sit amet. Massa sapien faucibus et
-          molestie ac feugiat sed. Commodo sed egestas egestas fringilla.
-        </p>
-      </div>
-    </section>
+    <Wrapper>
+      {projects.map((item) => {
+        return (
+          <section key={item.id} className="row">
+            <div className="column project-cont">
+              <div className="project-img-cont">
+                <a href={item.link} target="_blank" rel="noopener noreferrer">
+                  <img src={item.img} className="project-img" alt={item.alt} />
+                </a>
+              </div>
+            </div>
+            <div className="column">
+              <h3>{item.title}</h3>
+              <p>{item.desc}</p>
+            </div>
+          </section>
+        );
+      })}
+    </Wrapper>
   );
 }
