@@ -21,9 +21,16 @@ export default function Projects() {
       </div>
       <div>
         <header>
-          <h3 className="item-title side-title">
-            Sentence
-            <FiExternalLink className="link" />
+          <h3 className="side-title">
+            <a
+              className="item-title side-margin"
+              href="https://sentence-weicherng.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Sentence
+              <FiExternalLink className="link" />
+            </a>
           </h3>
           <p className="item-date">Dec 2021 | MERN</p>
         </header>

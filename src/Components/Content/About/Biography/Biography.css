@@ -1,3 +1,6 @@
+.bio-row {
+	margin-bottom: 32px;
+}
 .bio-title {
     color: #44505f;
 	font-size: 24px;
@@ -19,6 +22,7 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	margin-top: 24px;
 }
 .bio-young {
 	width: 60%;

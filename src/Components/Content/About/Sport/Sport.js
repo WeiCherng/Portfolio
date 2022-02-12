@@ -3,7 +3,7 @@ import "./Sport.css";
 
 export default function Sport() {
   return (
-    <div className="row">
+    <div className="row sport-row">
       <div className="column">
         <div className="sport-img-cont">
           <img src="ball.png" alt="ball" className="sport-img"/>

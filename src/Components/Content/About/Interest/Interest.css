@@ -1,5 +1,5 @@
 .interest-cont {
-	margin-bottom: 32px;
+	margin: 36px 0;
 }
 .interest-title {
     color: #44505f;
@@ -9,4 +9,28 @@
 }
 .interest-desc {
 	color: #4a5568;
+	line-height: 1.5;
+	padding-right: 36px;
+}
+.video-cont {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.video {
+	border: none;
+	border-radius: 12px;
+	max-width: 560px;
+	min-height: 315px;
+	width: 80%;
+	height: 60%;
+}
+
+@media (max-width: 768px) {
+	.interest-desc {
+		padding: 0;
+	}
+	.video {
+		width: 95%;
+	}
 }

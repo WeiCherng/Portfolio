@@ -76,4 +76,7 @@
     .year-col {
         padding: 0 12px;
     }
+    .timeline {
+        width: 90%;
+    }
 }

@@ -20,7 +20,7 @@ export default function Twotwo(props) {
           <h4>Jan 2022</h4>
           <p>
             Learning Redux and trying out different CSS animation library.
-            Started builing my own portfoilio.
+            Started builing my own portfolio.
           </p>
         </div>
         <div className="column year-col">

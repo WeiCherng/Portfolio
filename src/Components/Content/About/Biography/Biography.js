@@ -3,7 +3,7 @@ import "./Biography.css";
 
 export default function Biography() {
   return (
-    <div className="row">
+    <div className="row bio-row">
       <div className="column">
         <header>
           <h2 className="bio-title">Who Am I</h2>
@@ -11,7 +11,7 @@ export default function Biography() {
         </header>
         <p className="bio-desc">
           I'm a 20 year old student pursuing a Software Engineering degree. I
-          love to code but I'm not the best at it. I've been learning how to
+          love to code and I've been learning how to
           code from my school and through really wonderful resources online.
           Learning process has been fun and very challenging at times.
           Nevertheless, it has always been my dream job to be a web developer. I

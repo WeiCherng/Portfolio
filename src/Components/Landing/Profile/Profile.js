@@ -5,7 +5,7 @@ export default function Profile() {
   return (
     <div className="profile">
       <div className="flip">
-        <img src="avatar.png" alt="avatar" className="avatar"/>
+        <img src="hd.png" alt="avatar" className="avatar"/>
         <div className="backside"></div>
       </div>
       <div className="outer-circle"></div>

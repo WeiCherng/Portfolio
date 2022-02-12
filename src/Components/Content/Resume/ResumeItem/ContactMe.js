@@ -5,8 +5,8 @@ import { FiExternalLink } from "react-icons/fi";
 export default function ContactMe() {
   return (
     <div>
-      <p className="item-desc contact-me">weicherng0719@gmail.com</p>
-      <p className="contact-me">
+      <p className="item-desc contact-me contact-padding">weicherng0719@gmail.com</p>
+      <p className="contact-me contact-padding">
         <a
           className="item-desc contact-me"
           href="https://www.linkedin.com/in/tangweicherng/"
@@ -16,7 +16,7 @@ export default function ContactMe() {
           linkedin.com/in/tangweicherng <FiExternalLink className="link" />
         </a>
       </p>
-      <p className="contact-me">
+      <p className="contact-me contact-padding">
         <a
           className="item-desc contact-me"
           href="https://github.com/WeiCherng"
@@ -26,8 +26,8 @@ export default function ContactMe() {
           github.com/WeiCherng <FiExternalLink className="link" />
         </a>
       </p>
-      <p className="item-desc">(+60 ) 19-7501 501</p>
-      <p className="item-desc">Kota Tinggi, Johor</p>
+      <p className="item-desc contact-padding">(+60 ) 19-7501 501</p>
+      <p className="item-desc contact-padding">Kota Tinggi, Johor</p>
     </div>
   );
 }
