@@ -9,7 +9,13 @@ export default function Projects() {
       <div>
         <header>
           <h3 className="item-title side-title">
-            My Portfolio <FiExternalLink className="link" />
+          <a
+              className="item-title side-margin"
+              href="https://weicherng.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >My Portfolio <FiExternalLink className="link" /></a>
+            
           </h3>
           <p className="item-date">Jan 2022 | React </p>
         </header>

@@ -22,13 +22,13 @@ export default function Content(props) {
   let title;
   const [select, setSelect] = useState(2);
   if (select === 1) {
-    title = "About";
+    title = "About 🏀";
   } else if (select === 2) {
-    title = "Resume";
+    title = "Resume 🧾";
   } else if (select === 3) {
-    title = "Other";
+    title = "Other 📌";
   } else {
-    title = "Contact";
+    title = "Contact ☎️";
   }
 
   return (

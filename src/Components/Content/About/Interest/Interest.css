@@ -12,6 +12,13 @@
 	line-height: 1.5;
 	padding-right: 36px;
 }
+.interest-link {
+	text-decoration: none;
+	color: #4a5568;
+}
+.interest-link:hover {
+	color: #8e9cb4;
+}
 .video-cont {
 	display: flex;
 	justify-content: center;

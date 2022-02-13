@@ -5,7 +5,16 @@ export default function Experience() {
   return (
     <div>
       <header>
-        <h3 className="item-title">Mere.ka.io</h3>
+        <h3 className="item-title">
+          <a
+            className="item-title side-margin"
+            href="https://mereka.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Mere.ka.io
+          </a>
+        </h3>
         <p className="item-date">
           Sep 2021 - Dec 2021 | Full Stack Development Intern
         </p>

@@ -9,13 +9,29 @@ export default function Interest() {
         <p className="interest-desc">
           I love to play games. Games always been fun for me and I enjoyed
           playing it whenever I have free time. I like to play fps and story
-          based games. One of the best story games Ive played is RDR2. Really
-          Fun!
+          based games. One of the best story games Ive played is{" "}
+          <a
+            className="interest-link"
+            href="https://www.rockstargames.com/reddeadredemption2/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            RDR2
+          </a>
+          . Really Fun!
         </p>
         <p className="interest-desc">
-          I love computers hardware too. Watching youtubers such as LTT build
-          cool computers and servers are fun to watch. Building a PC is totally
-          one of my bucketlist I wish to complete.
+          I love computers hardware too. Watching youtubers such as {" "}
+          <a
+            className="interest-link"
+            href="https://www.youtube.com/c/LinusTechTips"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+              LTT
+          </a>{" "}
+          build cool computers and servers are fun to watch. Building a PC is
+          totally one of my bucketlist I wish to complete.
         </p>
         <p className="interest-desc">
           Funny enough I love to watch memes. I love to create meme videos too.
@@ -24,7 +40,7 @@ export default function Interest() {
       </div>
       <div className="column video-cont">
         <iframe
-        className="video"
+          className="video"
           src="https://www.youtube.com/embed/jQdX-GURHK4"
           title="YouTube video player"
           allowFullScreen
