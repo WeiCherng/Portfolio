@@ -26,7 +26,7 @@ export default function Twotwo(props) {
         <div className="column year-col">
           <h4>Current</h4>
           <p>
-            Happy and gratefull to everyone who has help and given me advice.
+            Happy and grateful to everyone who has help and given me advice.
             Continue to learn more and ready to improve!
           </p>
         </div>
