@@ -20,7 +20,18 @@ export default function MobileSidebar(props) {
           <div className="mobile-line"></div>
         </section>
       </motion.div>
-      {show && <Sidebar select={props.setSelect} close={() => setShow(!show)}/>}
+      {show && (
+        <Sidebar select={props.setSelect} close={() => setShow(!show)} />
+      )}
+      {show && (
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.7 }}
+          className="background-blur"
+          onClick={() => setShow(!show)}
+        ></motion.div>
+      )}
     </Wrapper>
   );
 }
