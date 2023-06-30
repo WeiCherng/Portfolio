@@ -1,13 +1,13 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "./Resume.css";
-import Skill from "./ResumeItem/Skill";
-import AboutMe from "./ResumeItem/AboutMe";
-import Experience from "./ResumeItem/Experience";
-import Education from "./ResumeItem/Education";
-import ContactMe from "./ResumeItem/ContactMe";
-import Projects from "./ResumeItem/Projects";
-import Others from "./ResumeItem/Others";
+// import Skill from "./ResumeItem/Skill";
+// import AboutMe from "./ResumeItem/AboutMe";
+// import Experience from "./ResumeItem/Experience";
+// import Education from "./ResumeItem/Education";
+// import ContactMe from "./ResumeItem/ContactMe";
+// import Projects from "./ResumeItem/Projects";
+// import Others from "./ResumeItem/Others";
 
 export default function Resume() {
   return (
