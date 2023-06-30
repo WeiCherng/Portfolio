@@ -17,7 +17,7 @@ export default function Resume() {
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 1, ease: "easeInOut" }}
     >
-      <header className="name-title">TANG WEI CHERNG</header>
+      {/* <header className="name-title">TANG WEI CHERNG</header>
       <div className="row">
         <div className="column col-padding">
           <section>
@@ -52,7 +52,8 @@ export default function Resume() {
             <Skill />
           </section>
         </div>
-      </div>
+      </div> */}
+      <section>Sorry! Under Construction 🚚</section>
     </motion.div>
   );
 }

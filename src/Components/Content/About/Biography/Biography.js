@@ -10,7 +10,7 @@ export default function Biography() {
           <h3 className="bio-greetings">Greetings! 👋 My Name Is <span className="bio-name">Tang Wei Cherng</span>.</h3>
         </header>
         <p className="bio-desc">
-          I'm a 20 year old student pursuing a Software Engineering degree. I
+          I'm a 21 year old student pursuing a Software Engineering degree. I
           love to code and I've been learning how to
           code from my school and through really wonderful resources online.
           Learning process has been fun and very challenging at times.

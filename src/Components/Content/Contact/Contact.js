@@ -1,11 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import {
-  AiFillLinkedin,
-  AiFillMail,
-  AiFillPhone,
-  AiFillGithub,
-} from "react-icons/ai";
+import { AiFillLinkedin, AiFillMail, AiFillGithub } from "react-icons/ai";
 import { IoLocationSharp } from "react-icons/io5";
 import "./Contact.css";
 
@@ -26,13 +21,16 @@ export default function Contact() {
       </p>
       <section>
         <h3>Below are my contact list:</h3>
-        <div className="contact-item">
-          <AiFillMail />
-          <span>weicherng0719@gmail.com</span>
-        </div>
-        <div className="contact-item">
-          <AiFillPhone />
-          <span>(+60) 19-7501 501</span>
+        <div>
+          <a
+            className="contact-item point"
+            href="mailto:weicherng0719@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <AiFillMail />
+            <span>weicherng0719@gmail.com</span>
+          </a>
         </div>
         <div>
           <a
@@ -58,7 +56,7 @@ export default function Contact() {
         </div>
         <div className="contact-item">
           <IoLocationSharp />
-          <span>Kota Tinggi, Johor</span>
+          <span>Kuala Lumpur, Malaysia</span>
         </div>
       </section>
     </motion.div>
