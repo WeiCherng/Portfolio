@@ -6,21 +6,14 @@ export default function Sport() {
     <div className="row sport-row">
       <div className="column">
         <div className="sport-img-cont">
-          <img src="ball.png" alt="ball" className="sport-img"/>
-          <p className="sport-pic-desc">Im so stressed out in this picture (Number 13)</p>
+          <img src="ball.png" alt="ball" className="sport-img" />
+          <p className="sport-pic-desc">Young Ball</p>
         </div>
       </div>
       <div className="column">
         <header className="sport-title">SPORT</header>
-        <p className="sport-desc">
-          Being 6 feet in my area is considered a giant.
-        </p>
-        <p className="sport-desc">
-          So naturely I was selected to play basketball and volleyball. Trained
-          for 3 times a week when i was 16 and got a chance to represent my
-          local town to play. Did not make it but Won a game and lose 2. Had a
-          blast of a time though!
-        </p>
+        <p className="sport-desc">Fun Fact I played ball but not now</p>
+        <p className="sport-desc">Ball is cool but game is even cooler</p>
       </div>
     </div>
   );

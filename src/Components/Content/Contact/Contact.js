@@ -14,10 +14,9 @@ export default function Contact() {
     >
       <h2 className="contact-title">I Love To Hear From You 💗</h2>
       <p className="contact-desc">
-        Feel free to contact me if there is any issuses with the website. I
-        would very much appereciate any feedbacks and suggestions towards this
-        website. Besides that, contact me anytime if you have any inquries or
-        you just want to say hi!
+        Contact me if theres any questions!
+        <br />
+        Scammer that skims website go away shsshshshs
       </p>
       <section>
         <h3>Below are my contact list:</h3>

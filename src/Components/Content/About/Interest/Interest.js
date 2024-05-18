@@ -7,9 +7,7 @@ export default function Interest() {
       <div className="column">
         <header className="interest-title">MY INTEREST</header>
         <p className="interest-desc">
-          I love to play games. Games always been fun for me and I enjoyed
-          playing it whenever I have free time. I like to play fps and story
-          based games. One of the best story games Ive played is{" "}
+          Game game game! RockStar{" "}
           <a
             className="interest-link"
             href="https://www.rockstargames.com/reddeadredemption2/"
@@ -17,25 +15,9 @@ export default function Interest() {
             rel="noopener noreferrer"
           >
             RDR2
-          </a>
-          . Really Fun!
-        </p>
-        <p className="interest-desc">
-          I love computers hardware too. Watching youtubers such as {" "}
-          <a
-            className="interest-link"
-            href="https://www.youtube.com/c/LinusTechTips"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-              LTT
           </a>{" "}
-          build cool computers and servers are fun to watch. Building a PC is
-          totally one of my bucketlist I wish to complete.
-        </p>
-        <p className="interest-desc">
-          Funny enough I love to watch memes. I love to create meme videos too.
-          Its broken humor but I totally love it!
+          GOTY. Dont debate <br />
+          See this not so cool clutch i did few years ago in 144p 
         </p>
       </div>
       <div className="column video-cont">
